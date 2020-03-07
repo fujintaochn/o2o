@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.hu.o2o.dao.ShopDaoTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.211 s <<< FAILURE! - in com.hu.o2o.dao.ShopDaoTest
+testUpdateShop(com.hu.o2o.dao.ShopDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+
+testInsertShop(com.hu.o2o.dao.ShopDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+
+testQueryByShopId(com.hu.o2o.dao.ShopDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+
+testQueryShopListAndCount(com.hu.o2o.dao.ShopDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+

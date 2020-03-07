@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.hu.o2o.dao.ProductImgDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.121 s <<< FAILURE! - in com.hu.o2o.dao.ProductImgDaoTest
+testABatchInsertProductImg(com.hu.o2o.dao.ProductImgDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+
+testBQueryProductImgList(com.hu.o2o.dao.ProductImgDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+
+testCDeleteProductImgByProductId(com.hu.o2o.dao.ProductImgDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in class path resource [spring/spring-dao.xml]: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.url' in value "${jdbc.url}"
+
